@@ -1,24 +1,18 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## アプリケーションの立ち上げ方
+1. docker desktop を立ち上げる
 
-Things you may want to cover:
+1. ターミナルを開く
 
-* Ruby version
+1. 作業ディレクトリに移動する
 
-* System dependencies
+`cd project/rails_app`
 
-* Configuration
+1. コンテナを起動する
 
-* Database creation
+`docker compose up` 
 
-* Database initialization
+1. アクセス確認をする
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+`http://localhost:3000`

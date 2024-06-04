@@ -22,6 +22,7 @@ services:
       - db
     stdin_open: true
     tty: true
+    working_dir: /rails_app
 volumes:
   mysql-data:
     driver: local
